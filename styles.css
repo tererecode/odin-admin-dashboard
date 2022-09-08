@@ -1,0 +1,17 @@
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+
+:root {
+    --main-font: 'Varela Round'
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font), sans-serif;
+}
